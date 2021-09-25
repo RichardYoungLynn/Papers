@@ -8,6 +8,8 @@ incentive mechanism design driven by client data contribution：data quantity（
 
 
 
+# CCF-A
+
 ## INFOCOM
 
 ### An Incentive Mechanism for Cross-Silo Federated Learning A Public Goods Perspective
@@ -128,11 +130,59 @@ Stackelberg game
 
 
 
+### Incentive Mechanism for Reliable Federated Learning: A Joint Optimization Approach to Combining Reputation and Contract Theory
+
+#### 关键词
+
+reputation（用于度量worker的reliability，进而选择高质量的worker）
+
+block chain（reputation management）
+
+contract theory（激励worker参与训练和共享资源，例如数据、计算和通信资源，每个worker选择一个合适的contract item来最大化他的收益）
+
+
+
+## VLDB
+
+### Refiner: A Reliable Incentive-Driven Federated Learning System Powered by Blockchain
+
+#### 关键词
+
+block chain
+
+incentivize self-interested participants（根据participant的训练数据和local update表现，给予一定的reward，即数字加密货币）
+
+handle malicious participants（采用audit scheme，从participants中选择一些validator，利用smart contract跟踪训练过程，惩罚背离学习协议的participant，不给予其reward）
+
+
+
+## IJCAI
+
+### A Multi-player Game for Studying Federated Learning Incentive Schemes
+
+#### 关键词
 
 
 
 
 
+# CCF-B
+
+## ICDCS
+
+### FMore: An Incentive Scheme of Multi-dimensional Auction for Federated Learning in MEC
+
+#### 关键词
+
+multi-dimensional auction
+
+
+
+## TWC
+
+### A Crowdsourcing Framework for On-Device Federated Learning
+
+#### 关键词
 
 
 
