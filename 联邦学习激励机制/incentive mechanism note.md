@@ -2,13 +2,17 @@
 
 idea：惩罚机制，惩罚那些不愿意参与的client，如果最开始不参加，那么之后相同的任务也别参加，但最终目标是提高性能。b站诺贝尔经济学获奖者的拍卖方法应用到激励机制里。软件工程的方法。
 
+incentive mechanism design driven by client data contribution：data quantity（攻击：注入大量有害数据；防御：算梯度不看数据数量）
+
+攻击方法：增加坏数据导致有毒梯度或上传有毒模型；使用较少的数据训练模型以减少时间
+
 
 
 ## INFOCOM
 
-#### An Incentive Mechanism for Cross-Silo Federated Learning A Public Goods Perspective
+### An Incentive Mechanism for Cross-Silo Federated Learning A Public Goods Perspective
 
-关键词：
+#### 关键词
 
 cross-silo（特性：server并不own全局模型，所以没必要向organization提供payment；public goods）
 
@@ -18,7 +22,7 @@ social welfare maximization（每个organization对于模型训练所分配的pr
 
 reverse auction
 
-理论证明：
+#### 理论证明
 
 social effificiency, individual rationality and budget balance
 
@@ -30,9 +34,9 @@ client向server发送message profiles，server去进行简单的计算以满足�
 
 
 
-#### FAIR Quality-Aware Federated Learning with Precise User Incentive and Model Aggregation
+### FAIR Quality-Aware Federated Learning with Precise User Incentive and Model Aggregation
 
-关键词：
+#### 关键词
 
 learning quality estimation（利用历史学习记录来估计client的学习质量，考虑了记录的freshness，并使用指数遗忘函数来进行权重分配）
 
@@ -40,7 +44,7 @@ reverse auction（在给定的预算内，尽可能的招募更多的高学习�
 
 model aggregation（设计了一种聚合算法，将模型质量集成到聚合中，并过滤掉不理想的模型更新，以进一步优化全局模型）
 
-理论证明：
+#### 理论证明
 
 truthful, individually rational and computationally effificient
 
@@ -50,11 +54,9 @@ truthful, individually rational and computationally effificient
 
 
 
+### FedServing A Federated Prediction Serving Framework Based on Incentive Mechanism
 
-
-#### FedServing A Federated Prediction Serving Framework Based on Incentive Mechanism
-
-关键词：
+#### 关键词
 
 bayesian game theory（使用bayesian game theory来建模provider的honest和strategic行为，并确保Bayesian Nash Equilibrium的存在，其中所有provider都将为给定的prediction queries提供真实而不是毫无意义的预测）
 
@@ -68,12 +70,69 @@ incentive mechanism for worker：reverse auction，double reverse auction and al
 
 
 
+## WWW
+
+### Incentive Mechanism for Horizontal Federated Learning Based on Reputation and Reverse Auction
+
+#### 关键词
+
+reputation（间接反映client的reliability和data quality）
+
+reverse auction
+
+horizontal federated learning
+
+block chain
+
+one-dimensional reverse GFP and GSP auctions（auction的过程中只考虑bid price）
+
+multi-dimensional reverse auction（考虑bid price和quality）
+
+quality detection（基于marginal contribution）
+
+#### 理论证明
+
+computational efficiency, individual rationality, budget feasibility and truthfulness（只有在bid的时候显露自己真实的cost，candidate才能最大化他的utility，也就是说不管其他candidate提交了什么，没人可以通过提交fake cost来提高自己的utility）
+
+在未来，我们可以进一步研究如何更合理地衡量参与者的贡献，以及在参与者动态加入或离开任务时如何分配奖励。
+
+
+
+## IEEE INTERNET OF THINGS JOURNAL
+
+### A Learning-Based Incentive Mechanism for Federated Learning
+
+#### 关键词
+
+deep reinforcement learning
+
+Stackelberg game
+
+participant decision（例如用于模型训练的数据的数量）
+
+
+
+### Hierarchical Incentive Mechanism Design for Federated Machine Learning in Mobile Networks
+
+#### 关键词
+
+hierarchical incentive mechanism
+
+contract theory（在model owner和worker之间使用，旨在incentivize worker来提供高质量和数量的数据）
+
+coalitional game（在third-party server和model owner之间使用，基于model owner的marginal contribution）
+
+model owner（负责发放sensing task给感兴趣的worker，然后利用worker收集到的数据训练模型，模型参数可以在model owner之间交换，也可以上传至third-party server进行aggregate）
+
+Stackelberg game
 
 
 
 
 
 
-incentive mechanism design driven by client data contribution：data quantity（攻击：注入大量有害数据；防御：算梯度不看数据数量）
 
-攻击方法：增加坏数据导致有毒梯度或上传有毒模型；使用较少的数据训练模型以减少时间
+
+
+
+
