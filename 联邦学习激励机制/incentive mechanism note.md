@@ -8,6 +8,36 @@ incentive mechanism design driven by client data contribution：data quantity（
 
 
 
+driven by client's contribution
+
+​	data quality
+
+​		shapley value
+
+​		dynamically adjust(A Sustainable Incentive Scheme for Federated Learning)
+
+​	data quantity(A learning-based incentive mechanism for federated learning)
+
+
+
+driven by clients' reputation(based on block chain)
+
+
+
+driven by clients' resource allocation
+
+​	computational resource
+
+​		Stackelberg game(Motivating workers in federated learning: A stackelberg game perspective, An incentive mechanism design for effificient edge learning by deep reinforcement learning)
+
+​	communication resource
+
+​		auction(An incentive mechanism for federated learning in wireless cellular network: An auction approach)
+
+​		Stackelberg game(A crowdsourcing framework for on-device federated learning)
+
+
+
 # CCF-A
 
 ## INFOCOM
@@ -164,8 +194,6 @@ handle malicious participants（采用audit scheme，从participants中选择一
 
 
 
-
-
 # CCF-B
 
 ## ICDCS
@@ -184,5 +212,34 @@ multi-dimensional auction
 
 #### 关键词
 
+Stackelberg game
 
 
+
+### An Incentive Mechanism for Federated Learning in Wireless Cellular Networks: An Auction Approach
+
+#### 关键词
+
+auction
+
+
+
+# CCF-C
+
+## BigData
+
+### Mechanism Design for An Incentive-aware Blockchain-enabled Federated Learning Platform
+
+#### 关键词
+
+block chain
+
+
+
+## WCNC
+
+### Auction based Incentive Design for Effificient Federated Learning in Cellular Wireless Networks
+
+#### 关键词
+
+auction
