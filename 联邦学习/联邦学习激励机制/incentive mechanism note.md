@@ -1,6 +1,6 @@
 需了解的名词： individually rational（reward-cost>=0，也就是保证client不亏），如何证明这是一个NP问题（Multiple Knapsack Problem with Assignment Restrictions (MKAR)、Multiple Knapsack Problem (MKP) ），nonconvex问题，crowdsensing和crowdsourcing
 
-idea：惩罚机制，惩罚那些不愿意参与的client，如果最开始不参加，那么之后相同的任务也别参加，但最终目标是提高性能。b站诺贝尔经济学获奖者的拍卖方法应用到激励机制里。软件工程的方法。
+idea：惩罚机制，惩罚那些不愿意参与的client，如果最开始不参加，那么之后相同的任务也别参加，但最终目标是提高性能。b站诺贝尔经济学获奖者的拍卖方法应用到激励机制里。软件工程的方法，每轮epoch都选择一次客户端。cross-silo：在训练结束后，global model不能完全平等的由organization共享，对于contribution较少的，可以在模型中加噪声，或者在训练过程中有的organization数据量少且质量差，模型聚合的时候就用他们的数据，但同时设计一个过滤算法聚合一个好的模型，最后分发模型的时候就好模型给好organization，差模型给差organization。
 
 incentive mechanism design driven by client data contribution：data quantity（攻击：注入大量有害数据；防御：算梯度不看数据数量）
 
